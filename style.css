@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #dacadf;
+  }
+  
+  .header {
+    /* padding: 10px; */
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      font-size: bold;
+    background-color: #f5e1f8;
+    color: #c58383;
+    flex-wrap: wrap;
+  }
+
+  .header nav {
+    padding: 10px;
+    margin-right: 20px;
+    text-align: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+  }
+  
+  .header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  a {
+    color: #c04242;
+    text-decoration: none;
+    a:hover {text-decoration: none; color: #ff9900; font-weight:bold;}
+  }
+
+  #header-image-menu{
+    top: 10px;
+    position: relative;
+}
+ 
+#header-image-menu img{
+    width: 100%;
+    height: 200px;
+    margin: none;
+    padding: none;
+}
+
+#image-text{
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    font-family: century gothic;
+    color: #c97f7f;
+    text-align: end;    
+}
+    
+.aboutmebox {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top:20px;
+  }
+
+.aboutmetext {
+    margin-bottom: 120px;
+    font-size: 50px;
+    font-family: century gothic;
+    color:#c97f7f;
+}
+
+.aboutmep {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: monospace;
+  font-size: 25px;
+  color: #504242;
+}
+
+.aboutmebox img {
+    max-height: 350px;
+  }
+
+  .construction {
+    width: 30%;
+    height: 30%;
+  }
+  .float-left {
+    float: left;
+    margin-right: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .table1 {
+    min-width: 420px;
+    height: 300px;
+    padding: 2%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  border-style: dashed;
+  border-color: rgb(194, 167, 185);
+  font-weight: bold;
+  color: paleturquoise;
+  background: linear-gradient(#dfd4ec, #86c8d8);
+  text-align: end;
+  flex-grow: 1;
+  width: 100px;
+height: 400px;
+} 
+
+.table2 {
+  min-width: 420px;
+  height: 300px;
+  padding: 2%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+border-style: dashed;
+border-color: rgb(194, 167, 185);
+font-weight: bold;
+color: paleturquoise;
+background: linear-gradient(#dfd4ec, #86c8d8);
+text-align: end;
+flex-grow: 2;
+width: 700px;
+height: 400px;
+} 
+
+ .l1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: century gothic;
+ }
+
+@media screen and (hover: hover) {
+    .table1:hover { 
+      color: black;
+      background: rgb(240, 240, 232);
+  }
+  }
+
+  @media screen and (hover: hover) {
+    .table2:hover { 
+      color: black;
+      background: rgb(240, 240, 232);
+  }
+  }
+
+  @media screen and (hover: hover) {
+    a:hover {
+      color: white;
+      background: rgb(37, 39, 129);
+    }
+  }
+
+  @media screen and (max-width: 998px) {
+    .aboutmebox {
+      flex: 0 0 50%;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+    }
+    .table1, .table2 {
+      margin-left: 0px;
+    }
+    .table1 {
+      width: 40% !important;
+    }
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .footer {
+    clear: both;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif; 
+  } 
+
+  
+  .footer h2 {
+    font-size: 30px;
+    text-align: start;
+    font-family: century gothic;
+  color: #5b3f5e;
+  }
+  
+  .footer nav {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+  }
+  
+  .footer nav ul {
+    list-style-type: none;
+  }
+  
+  .footer nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+  }
+
+ 
